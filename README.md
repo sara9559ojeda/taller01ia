@@ -11,6 +11,7 @@ Predicción de la demanda eléctrica de la **hora siguiente** a partir de una ve
 | `02_lstm_modeling.ipynb` | **Parte 2** – features, split cronológico, normalización, 3 arquitecturas × 3 ventanas, métricas, gráficas, sobreajuste, experimentos y respuestas a las preguntas |
 | `lstm_pipeline.py` | Preprocesamiento compartido por el notebook y la app (garantiza que entrenamiento y despliegue transformen igual los datos) |
 | `app.py` | **Despliegue** – app web Streamlit: se ingresan las X y se obtiene la predicción y |
+| `informe_taller_lstm.pdf` | **Informe** – limpieza, arquitecturas, resultados, gráficas, respuestas a las 9 preguntas y despliegue |
 | `data/energy_demand_clean.csv` | Dataset limpio |
 | `models/` | Modelos entrenados (`.keras`), scalers y configuración |
 | `outputs/figures/` | Todas las gráficas |
