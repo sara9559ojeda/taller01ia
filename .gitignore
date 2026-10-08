@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit (local secrets)
+.streamlit/secrets.toml
+
+# Editors / tooling
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Note: models/, data/ and outputs/ are tracked on purpose.
+# The app and the notebook (RETRAIN = False) need the trained models (~16 MB)
+# and the clean dataset; without them everything must be retrained (~25 min).
