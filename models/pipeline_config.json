@@ -1,0 +1,92 @@
+{
+  "feature_cols": [
+    "demanda_mw",
+    "temperatura_c",
+    "humedad_pct",
+    "viento_kmh",
+    "radiacion_wm2",
+    "precipitacion_mm",
+    "precio_kwh",
+    "fin_semana",
+    "festivo",
+    "hora_sin",
+    "hora_cos",
+    "dia_sin",
+    "dia_cos",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "continuous_cols": [
+    "demanda_mw",
+    "temperatura_c",
+    "humedad_pct",
+    "viento_kmh",
+    "radiacion_wm2",
+    "precipitacion_mm",
+    "precio_kwh"
+  ],
+  "val_start": "2026-07-01 00:00:00",
+  "test_start": "2026-10-01 00:00:00",
+  "best_model": {
+    "arch": "B",
+    "label": "B. LSTM profunda",
+    "window": 24,
+    "file": "lstm_deep_w24.keras"
+  },
+  "models": [
+    {
+      "arch": "A",
+      "label": "A. LSTM base",
+      "window": 12,
+      "file": "lstm_base_w12.keras"
+    },
+    {
+      "arch": "A",
+      "label": "A. LSTM base",
+      "window": 24,
+      "file": "lstm_base_w24.keras"
+    },
+    {
+      "arch": "A",
+      "label": "A. LSTM base",
+      "window": 48,
+      "file": "lstm_base_w48.keras"
+    },
+    {
+      "arch": "B",
+      "label": "B. LSTM profunda",
+      "window": 12,
+      "file": "lstm_deep_w12.keras"
+    },
+    {
+      "arch": "B",
+      "label": "B. LSTM profunda",
+      "window": 24,
+      "file": "lstm_deep_w24.keras"
+    },
+    {
+      "arch": "B",
+      "label": "B. LSTM profunda",
+      "window": 48,
+      "file": "lstm_deep_w48.keras"
+    },
+    {
+      "arch": "C",
+      "label": "C. LSTM capacidad + Dropout",
+      "window": 12,
+      "file": "lstm_regularized_w12.keras"
+    },
+    {
+      "arch": "C",
+      "label": "C. LSTM capacidad + Dropout",
+      "window": 24,
+      "file": "lstm_regularized_w24.keras"
+    },
+    {
+      "arch": "C",
+      "label": "C. LSTM capacidad + Dropout",
+      "window": 48,
+      "file": "lstm_regularized_w48.keras"
+    }
+  ]
+}
