@@ -1,0 +1,27 @@
+paso,regla,justificacion,registros_afectados
+1,Normalizar texto de periodo_dia (strip + minúsculas + NFC),Variantes de formato de la misma categoría generan categorías falsas,80
+3,Eliminar filas duplicadas exactas,Copias idénticas duplican el peso de una hora y rompen la continuidad de las ventanas,30
+4,Ordenar cronológicamente (filas que retrocedían en el tiempo),Las secuencias LSTM requieren orden temporal estricto,8773
+5,Recalcular periodo_dia desde hora,Etiqueta derivada de la hora; las contradicciones son errores de captura,60
+6,Rango físico de humedad_pct,Valor físicamente imposible,9
+6,Rango físico de viento_kmh,Valor físicamente imposible,8
+6,Rango físico de radiacion_wm2,Valor físicamente imposible,0
+6,Rango físico de precipitacion_mm,Valor físicamente imposible,0
+6,Rango físico de precio_kwh,Valor físicamente imposible,3
+6,Rango físico de demanda_mw,Valor físicamente imposible,0
+7a,Desviación del nivel local en temperatura_c,Valor muy alejado del nivel de las horas vecinas,33
+7b,Pico aislado en temperatura_c,Salto puntual que se revierte en la hora siguiente,2
+7a,Desviación del nivel local en humedad_pct,Valor muy alejado del nivel de las horas vecinas,4
+7b,Pico aislado en humedad_pct,Salto puntual que se revierte en la hora siguiente,12
+7a,Desviación del nivel local en viento_kmh,Valor muy alejado del nivel de las horas vecinas,28
+7b,Pico aislado en viento_kmh,Salto puntual que se revierte en la hora siguiente,1
+7a,Desviación del nivel local en precio_kwh,Valor muy alejado del nivel de las horas vecinas,18
+7b,Pico aislado en precio_kwh,Salto puntual que se revierte en la hora siguiente,2
+8,Reconciliar demanda_mw(t) con demanda_objetivo(t-1),"Mismo valor físico registrado dos veces; se toma el registro coherente (observado, no inventado)",40
+9,Forward fill de temperatura_c (máx. 3 h),Relleno causal con la última medición observada; sin información futura,105
+9,Forward fill de humedad_pct (máx. 3 h),Relleno causal con la última medición observada; sin información futura,95
+9,Forward fill de viento_kmh (máx. 3 h),Relleno causal con la última medición observada; sin información futura,107
+9,Forward fill de radiacion_wm2 (máx. 3 h),Relleno causal con la última medición observada; sin información futura,0
+9,Forward fill de precipitacion_mm (máx. 3 h),Relleno causal con la última medición observada; sin información futura,0
+9,Forward fill de precio_kwh (máx. 3 h),Relleno causal con la última medición observada; sin información futura,93
+10,Target faltante en la última hora: no se usa como muestra,No existe la hora siguiente en el dataset; rellenarlo sería inventar,1

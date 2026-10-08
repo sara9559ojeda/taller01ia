@@ -1,0 +1,621 @@
+timestamp,variable,valor_original,valor_nuevo,regla
+2025-01-01 02:00:00,viento_kmh,,11.57,forward fill (último valor observado)
+2025-01-06 21:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-01-08 13:00:00,demanda_mw,1192.54,510.75,reconciliado con demanda_objetivo(t-1)
+2025-01-09 09:00:00,temperatura_c,44.94,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-01-09 09:00:00,temperatura_c,,9.36,forward fill (último valor observado)
+2025-01-10 03:00:00,humedad_pct,16.45,,7b pico aislado S > 3.5 -> NaN
+2025-01-10 03:00:00,humedad_pct,,90.75,forward fill (último valor observado)
+2025-01-10 03:00:00,viento_kmh,83.98,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-01-10 03:00:00,viento_kmh,,16.23,forward fill (último valor observado)
+2025-01-12 01:00:00,precio_kwh,63.96,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-01-12 01:00:00,precio_kwh,,22.8112,forward fill (último valor observado)
+2025-01-13 11:00:00,humedad_pct,,58.57,forward fill (último valor observado)
+2025-01-13 22:00:00,temperatura_c,,18.24,forward fill (último valor observado)
+2025-01-14 00:00:00,periodo_dia,noche,madrugada,periodo_dia derivado de hora
+2025-01-15 10:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2025-01-17 21:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-01-18 23:00:00,temperatura_c,27.43,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-01-18 23:00:00,temperatura_c,,14.55,forward fill (último valor observado)
+2025-01-19 17:00:00,temperatura_c,-5.71,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-01-19 17:00:00,temperatura_c,,16.13,forward fill (último valor observado)
+2025-01-22 13:00:00,temperatura_c,,12.24,forward fill (último valor observado)
+2025-01-23 07:00:00,temperatura_c,,8.12,forward fill (último valor observado)
+2025-01-24 10:00:00,humedad_pct,,65.54,forward fill (último valor observado)
+2025-01-24 18:00:00,temperatura_c,,15.97,forward fill (último valor observado)
+2025-01-26 21:00:00,humedad_pct,,95.05,forward fill (último valor observado)
+2025-01-28 00:00:00,viento_kmh,,10.83,forward fill (último valor observado)
+2025-01-28 23:00:00,humedad_pct,,96.9,forward fill (último valor observado)
+2025-01-29 14:00:00,demanda_mw,443.67,572.47,reconciliado con demanda_objetivo(t-1)
+2025-01-31 04:00:00,temperatura_c,,10.92,forward fill (último valor observado)
+2025-02-01 23:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-02-02 15:00:00,humedad_pct,,57.23,forward fill (último valor observado)
+2025-02-04 03:00:00,precio_kwh,47.5,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-02-04 03:00:00,precio_kwh,,16.4139,forward fill (último valor observado)
+2025-02-08 16:00:00,temperatura_c,,15.91,forward fill (último valor observado)
+2025-02-09 01:00:00,precio_kwh,,16.091,forward fill (último valor observado)
+2025-02-10 10:00:00,viento_kmh,,6.61,forward fill (último valor observado)
+2025-02-11 10:00:00,temperatura_c,,13.07,forward fill (último valor observado)
+2025-02-13 02:00:00,viento_kmh,110.85,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-02-13 02:00:00,viento_kmh,,14.69,forward fill (último valor observado)
+2025-02-14 13:00:00,temperatura_c,,15.16,forward fill (último valor observado)
+2025-02-20 15:00:00,temperatura_c,,12.2,forward fill (último valor observado)
+2025-02-21 05:00:00,viento_kmh,33.01,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-02-21 05:00:00,viento_kmh,,21.5,forward fill (último valor observado)
+2025-02-21 14:00:00,humedad_pct,7.05,,7b pico aislado S > 3.5 -> NaN
+2025-02-21 14:00:00,humedad_pct,,66.03,forward fill (último valor observado)
+2025-02-22 19:00:00,precio_kwh,43.8456,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-02-22 19:00:00,precio_kwh,,36.2717,forward fill (último valor observado)
+2025-02-23 16:00:00,precio_kwh,,23.1084,forward fill (último valor observado)
+2025-02-24 03:00:00,humedad_pct,,84.68,forward fill (último valor observado)
+2025-02-25 22:00:00,precio_kwh,,32.1104,forward fill (último valor observado)
+2025-03-03 04:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-03-03 20:00:00,temperatura_c,-23.02,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-03-03 20:00:00,temperatura_c,,20.68,forward fill (último valor observado)
+2025-03-04 02:00:00,precio_kwh,35.35,,7b pico aislado S > 3.5 -> NaN
+2025-03-04 02:00:00,precio_kwh,,19.4052,forward fill (último valor observado)
+2025-03-05 16:00:00,precio_kwh,,19.4261,forward fill (último valor observado)
+2025-03-07 08:00:00,temperatura_c,,14.16,forward fill (último valor observado)
+2025-03-08 09:00:00,viento_kmh,49.45,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-03-08 09:00:00,viento_kmh,,18.69,forward fill (último valor observado)
+2025-03-08 17:00:00,humedad_pct,,65.44,forward fill (último valor observado)
+2025-03-12 11:00:00,temperatura_c,23.46,,7b pico aislado S > 3.5 -> NaN
+2025-03-12 11:00:00,temperatura_c,,14.19,forward fill (último valor observado)
+2025-03-14 21:00:00,temperatura_c,1.29,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-03-14 21:00:00,temperatura_c,,21.02,forward fill (último valor observado)
+2025-03-17 15:00:00,temperatura_c,-10.26,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-03-17 15:00:00,temperatura_c,,18.74,forward fill (último valor observado)
+2025-03-20 10:00:00,temperatura_c,,17.35,forward fill (último valor observado)
+2025-03-21 02:00:00,humedad_pct,,83.27,forward fill (último valor observado)
+2025-03-23 01:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-03-23 22:00:00,precio_kwh,,33.2328,forward fill (último valor observado)
+2025-03-26 06:00:00,humedad_pct,,77.32,forward fill (último valor observado)
+2025-03-28 13:00:00,temperatura_c,,18.05,forward fill (último valor observado)
+2025-03-30 07:00:00,viento_kmh,,10.2,forward fill (último valor observado)
+2025-04-04 01:00:00,viento_kmh,,13.18,forward fill (último valor observado)
+2025-04-04 07:00:00,temperatura_c,,16.47,forward fill (último valor observado)
+2025-04-07 14:00:00,precio_kwh,,19.2219,forward fill (último valor observado)
+2025-04-08 23:00:00,viento_kmh,-8.6,,fuera de rango físico -> NaN
+2025-04-08 23:00:00,viento_kmh,,13.98,forward fill (último valor observado)
+2025-04-11 08:00:00,viento_kmh,,10.94,forward fill (último valor observado)
+2025-04-13 16:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2025-04-15 06:00:00,temperatura_c,,19.77,forward fill (último valor observado)
+2025-04-16 19:00:00,humedad_pct,,65.23,forward fill (último valor observado)
+2025-04-18 09:00:00,humedad_pct,,59.22,forward fill (último valor observado)
+2025-04-19 02:00:00,viento_kmh,,21.51,forward fill (último valor observado)
+2025-04-19 06:00:00,viento_kmh,,17.62,forward fill (último valor observado)
+2025-04-21 13:00:00,viento_kmh,,14.51,forward fill (último valor observado)
+2025-04-21 21:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-04-27 06:00:00,precio_kwh,,28.6733,forward fill (último valor observado)
+2025-05-01 11:00:00,temperatura_c,,19.44,forward fill (último valor observado)
+2025-05-02 12:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2025-05-02 23:00:00,temperatura_c,41.0,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-02 23:00:00,temperatura_c,,27.7,forward fill (último valor observado)
+2025-05-03 03:00:00,viento_kmh,,14.37,forward fill (último valor observado)
+2025-05-03 11:00:00,viento_kmh,-12.2,,fuera de rango físico -> NaN
+2025-05-03 11:00:00,viento_kmh,,10.47,forward fill (último valor observado)
+2025-05-04 20:00:00,humedad_pct,,74.44,forward fill (último valor observado)
+2025-05-05 11:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2025-05-08 18:00:00,temperatura_c,-16.36,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-08 18:00:00,temperatura_c,,26.63,forward fill (último valor observado)
+2025-05-08 18:00:00,viento_kmh,96.73,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-08 18:00:00,viento_kmh,,4.43,forward fill (último valor observado)
+2025-05-10 18:00:00,viento_kmh,52.35,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-10 18:00:00,viento_kmh,,10.69,forward fill (último valor observado)
+2025-05-12 13:00:00,viento_kmh,65.34,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-12 13:00:00,viento_kmh,,11.25,forward fill (último valor observado)
+2025-05-13 02:00:00,humedad_pct,,72.9,forward fill (último valor observado)
+2025-05-13 20:00:00,demanda_mw,1092.31,812.78,reconciliado con demanda_objetivo(t-1)
+2025-05-16 03:00:00,precio_kwh,,13.2022,forward fill (último valor observado)
+2025-05-19 00:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2025-05-21 03:00:00,viento_kmh,-9.38,,fuera de rango físico -> NaN
+2025-05-21 03:00:00,viento_kmh,,12.64,forward fill (último valor observado)
+2025-05-22 14:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2025-05-23 05:00:00,temperatura_c,-7.03,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-23 05:00:00,temperatura_c,,23.6,forward fill (último valor observado)
+2025-05-23 13:00:00,precio_kwh,,19.7472,forward fill (último valor observado)
+2025-05-26 00:00:00,precio_kwh,54.28,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-26 00:00:00,precio_kwh,,26.4074,forward fill (último valor observado)
+2025-05-26 12:00:00,viento_kmh,61.57,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-05-26 12:00:00,viento_kmh,,12.25,forward fill (último valor observado)
+2025-05-28 14:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2025-05-28 16:00:00,humedad_pct,,63.31,forward fill (último valor observado)
+2025-05-29 07:00:00,humedad_pct,,59.07,forward fill (último valor observado)
+2025-05-29 09:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2025-05-30 13:00:00,humedad_pct,,39.2,forward fill (último valor observado)
+2025-06-01 02:00:00,humedad_pct,,76.94,forward fill (último valor observado)
+2025-06-02 01:00:00,viento_kmh,87.35,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-06-02 01:00:00,viento_kmh,,15.3,forward fill (último valor observado)
+2025-06-02 15:00:00,humedad_pct,,55.19,forward fill (último valor observado)
+2025-06-04 01:00:00,demanda_mw,844.43,733.89,reconciliado con demanda_objetivo(t-1)
+2025-06-04 17:00:00,humedad_pct,,60.88,forward fill (último valor observado)
+2025-06-05 12:00:00,precio_kwh,,19.6126,forward fill (último valor observado)
+2025-06-08 07:00:00,temperatura_c,,23.9,forward fill (último valor observado)
+2025-06-10 04:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-06-10 19:00:00,precio_kwh,,32.7145,forward fill (último valor observado)
+2025-06-12 19:00:00,temperatura_c,,26.89,forward fill (último valor observado)
+2025-06-16 13:00:00,humedad_pct,,45.74,forward fill (último valor observado)
+2025-06-16 16:00:00,demanda_mw,804.13,679.84,reconciliado con demanda_objetivo(t-1)
+2025-06-17 08:00:00,precio_kwh,,25.2104,forward fill (último valor observado)
+2025-06-18 12:00:00,temperatura_c,,21.64,forward fill (último valor observado)
+2025-06-20 11:00:00,humedad_pct,,49.11,forward fill (último valor observado)
+2025-06-21 03:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-06-22 10:00:00,demanda_mw,160.66,524.27,reconciliado con demanda_objetivo(t-1)
+2025-06-25 04:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2025-07-01 06:00:00,periodo_dia,noche,mañana,periodo_dia derivado de hora
+2025-07-02 18:00:00,humedad_pct,,66.45,forward fill (último valor observado)
+2025-07-02 19:00:00,precio_kwh,42.9482,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-07-02 19:00:00,precio_kwh,,37.3973,forward fill (último valor observado)
+2025-07-05 05:00:00,temperatura_c,,24.16,forward fill (último valor observado)
+2025-07-06 11:00:00,precio_kwh,,25.5875,forward fill (último valor observado)
+2025-07-08 04:00:00,temperatura_c,,26.01,forward fill (último valor observado)
+2025-07-11 19:00:00,temperatura_c,,28.52,forward fill (último valor observado)
+2025-07-12 22:00:00,humedad_pct,116.56,,fuera de rango físico -> NaN
+2025-07-12 22:00:00,humedad_pct,,79.24,forward fill (último valor observado)
+2025-07-13 22:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-07-13 23:00:00,humedad_pct,60.39,,7b pico aislado S > 3.5 -> NaN
+2025-07-13 23:00:00,humedad_pct,,92.36,forward fill (último valor observado)
+2025-07-14 02:00:00,humedad_pct,-2.35,,fuera de rango físico -> NaN
+2025-07-14 02:00:00,humedad_pct,,78.14,forward fill (último valor observado)
+2025-07-16 02:00:00,precio_kwh,,15.0224,forward fill (último valor observado)
+2025-07-16 16:00:00,temperatura_c,,26.43,forward fill (último valor observado)
+2025-07-16 19:00:00,viento_kmh,,7.24,forward fill (último valor observado)
+2025-07-20 14:00:00,viento_kmh,97.83,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-07-20 14:00:00,viento_kmh,,10.22,forward fill (último valor observado)
+2025-07-21 05:00:00,humedad_pct,,65.75,forward fill (último valor observado)
+2025-07-23 14:00:00,demanda_mw,1487.53,604.68,reconciliado con demanda_objetivo(t-1)
+2025-07-30 07:00:00,humedad_pct,93.02,,7b pico aislado S > 3.5 -> NaN
+2025-07-30 07:00:00,humedad_pct,,65.38,forward fill (último valor observado)
+2025-08-01 04:00:00,humedad_pct,17.91,,7b pico aislado S > 3.5 -> NaN
+2025-08-01 04:00:00,humedad_pct,,79.18,forward fill (último valor observado)
+2025-08-05 12:00:00,precio_kwh,,24.0166,forward fill (último valor observado)
+2025-08-05 21:00:00,demanda_mw,1719.56,832.39,reconciliado con demanda_objetivo(t-1)
+2025-08-08 07:00:00,humedad_pct,,62.05,forward fill (último valor observado)
+2025-08-08 16:00:00,temperatura_c,,26.03,forward fill (último valor observado)
+2025-08-12 18:00:00,precio_kwh,74.82,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-08-12 18:00:00,precio_kwh,,28.6094,forward fill (último valor observado)
+2025-08-12 19:00:00,precio_kwh,38.8979,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-08-12 19:00:00,precio_kwh,,28.6094,forward fill (último valor observado)
+2025-08-16 01:00:00,precio_kwh,,24.6,forward fill (último valor observado)
+2025-08-19 06:00:00,demanda_mw,261.68,770.05,reconciliado con demanda_objetivo(t-1)
+2025-08-24 02:00:00,demanda_mw,613.05,525.14,reconciliado con demanda_objetivo(t-1)
+2025-08-26 11:00:00,demanda_mw,1256.33,541.74,reconciliado con demanda_objetivo(t-1)
+2025-08-27 07:00:00,periodo_dia,noche,mañana,periodo_dia derivado de hora
+2025-08-29 02:00:00,temperatura_c,,23.19,forward fill (último valor observado)
+2025-08-30 04:00:00,precio_kwh,,21.3518,forward fill (último valor observado)
+2025-09-02 07:00:00,demanda_mw,480.47,714.46,reconciliado con demanda_objetivo(t-1)
+2025-09-02 19:00:00,precio_kwh,51.84,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-09-02 19:00:00,precio_kwh,,34.9455,forward fill (último valor observado)
+2025-09-03 10:00:00,temperatura_c,,17.29,forward fill (último valor observado)
+2025-09-05 10:00:00,demanda_mw,468.51,606.92,reconciliado con demanda_objetivo(t-1)
+2025-09-05 23:00:00,temperatura_c,,20.82,forward fill (último valor observado)
+2025-09-12 05:00:00,precio_kwh,,18.8415,forward fill (último valor observado)
+2025-09-12 11:00:00,temperatura_c,,16.54,forward fill (último valor observado)
+2025-09-12 12:00:00,demanda_mw,1748.94,506.87,reconciliado con demanda_objetivo(t-1)
+2025-09-14 04:00:00,precio_kwh,45.88,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-09-14 04:00:00,precio_kwh,,19.6365,forward fill (último valor observado)
+2025-09-16 10:00:00,precio_kwh,,28.2468,forward fill (último valor observado)
+2025-09-18 20:00:00,precio_kwh,,32.1351,forward fill (último valor observado)
+2025-09-20 13:00:00,precio_kwh,,20.503,forward fill (último valor observado)
+2025-09-21 08:00:00,viento_kmh,82.11,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-09-21 08:00:00,viento_kmh,,10.95,forward fill (último valor observado)
+2025-09-27 12:00:00,humedad_pct,,50.29,forward fill (último valor observado)
+2025-09-28 05:00:00,temperatura_c,,17.11,forward fill (último valor observado)
+2025-09-29 18:00:00,temperatura_c,,21.33,forward fill (último valor observado)
+2025-09-30 04:00:00,viento_kmh,60.46,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-09-30 04:00:00,viento_kmh,,12.62,forward fill (último valor observado)
+2025-10-01 06:00:00,viento_kmh,,10.56,forward fill (último valor observado)
+2025-10-01 13:00:00,temperatura_c,,17.53,forward fill (último valor observado)
+2025-10-02 05:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2025-10-03 01:00:00,humedad_pct,,94.07,forward fill (último valor observado)
+2025-10-05 11:00:00,precio_kwh,,26.5544,forward fill (último valor observado)
+2025-10-05 17:00:00,humedad_pct,13.34,,7b pico aislado S > 3.5 -> NaN
+2025-10-05 17:00:00,humedad_pct,,64.08,forward fill (último valor observado)
+2025-10-06 05:00:00,temperatura_c,38.84,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-10-06 05:00:00,temperatura_c,,15.13,forward fill (último valor observado)
+2025-10-06 07:00:00,precio_kwh,,28.8977,forward fill (último valor observado)
+2025-10-07 02:00:00,humedad_pct,,90.37,forward fill (último valor observado)
+2025-10-09 19:00:00,temperatura_c,,19.35,forward fill (último valor observado)
+2025-10-10 00:00:00,viento_kmh,,11.38,forward fill (último valor observado)
+2025-10-10 01:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-10-13 05:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-10-15 03:00:00,viento_kmh,112.09,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-10-15 03:00:00,viento_kmh,,12.31,forward fill (último valor observado)
+2025-10-15 04:00:00,humedad_pct,,81.03,forward fill (último valor observado)
+2025-10-15 06:00:00,demanda_mw,1751.37,687.43,reconciliado con demanda_objetivo(t-1)
+2025-10-16 12:00:00,humedad_pct,3.52,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-10-16 12:00:00,humedad_pct,,61.04,forward fill (último valor observado)
+2025-10-17 07:00:00,precio_kwh,,22.7752,forward fill (último valor observado)
+2025-10-18 08:00:00,temperatura_c,,10.72,forward fill (último valor observado)
+2025-10-20 09:00:00,demanda_mw,954.51,643.63,reconciliado con demanda_objetivo(t-1)
+2025-10-20 12:00:00,temperatura_c,,13.15,forward fill (último valor observado)
+2025-10-21 00:00:00,humedad_pct,,96.93,forward fill (último valor observado)
+2025-10-21 10:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2025-10-21 20:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-10-24 06:00:00,precio_kwh,-4.17,,fuera de rango físico -> NaN
+2025-10-24 06:00:00,precio_kwh,,20.6011,forward fill (último valor observado)
+2025-10-25 22:00:00,periodo_dia,tarde,noche,periodo_dia derivado de hora
+2025-10-25 22:00:00,precio_kwh,,28.7332,forward fill (último valor observado)
+2025-10-26 05:00:00,viento_kmh,,17.89,forward fill (último valor observado)
+2025-10-28 05:00:00,precio_kwh,,21.3765,forward fill (último valor observado)
+2025-10-28 08:00:00,viento_kmh,,16.2,forward fill (último valor observado)
+2025-11-01 05:00:00,temperatura_c,,12.8,forward fill (último valor observado)
+2025-11-02 23:00:00,humedad_pct,,100.0,forward fill (último valor observado)
+2025-11-05 12:00:00,viento_kmh,,10.2,forward fill (último valor observado)
+2025-11-06 17:00:00,humedad_pct,,71.41,forward fill (último valor observado)
+2025-11-08 23:00:00,precio_kwh,,26.3936,forward fill (último valor observado)
+2025-11-13 08:00:00,periodo_dia,noche,mañana,periodo_dia derivado de hora
+2025-11-14 12:00:00,humedad_pct,,53.92,forward fill (último valor observado)
+2025-11-14 13:00:00,viento_kmh,,6.6,forward fill (último valor observado)
+2025-11-15 19:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2025-11-16 00:00:00,humedad_pct,,100.0,forward fill (último valor observado)
+2025-11-17 02:00:00,viento_kmh,,18.46,forward fill (último valor observado)
+2025-11-18 04:00:00,humedad_pct,,90.13,forward fill (último valor observado)
+2025-11-20 03:00:00,temperatura_c,,13.31,forward fill (último valor observado)
+2025-11-21 01:00:00,viento_kmh,,17.08,forward fill (último valor observado)
+2025-11-21 22:00:00,temperatura_c,-13.87,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-11-21 22:00:00,temperatura_c,,15.06,forward fill (último valor observado)
+2025-11-22 12:00:00,demanda_mw,1365.46,431.06,reconciliado con demanda_objetivo(t-1)
+2025-11-23 06:00:00,precio_kwh,,26.2834,forward fill (último valor observado)
+2025-11-24 16:00:00,viento_kmh,,11.46,forward fill (último valor observado)
+2025-11-25 10:00:00,humedad_pct,,68.36,forward fill (último valor observado)
+2025-11-26 04:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-11-27 13:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2025-11-28 10:00:00,precio_kwh,1.72,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-11-28 10:00:00,precio_kwh,,30.4223,forward fill (último valor observado)
+2025-11-28 14:00:00,viento_kmh,,10.69,forward fill (último valor observado)
+2025-11-30 03:00:00,demanda_mw,968.37,506.39,reconciliado con demanda_objetivo(t-1)
+2025-12-02 09:00:00,demanda_mw,340.47,651.09,reconciliado con demanda_objetivo(t-1)
+2025-12-03 20:00:00,viento_kmh,,9.54,forward fill (último valor observado)
+2025-12-04 23:00:00,viento_kmh,,1.86,forward fill (último valor observado)
+2025-12-06 12:00:00,precio_kwh,-3.39,,fuera de rango físico -> NaN
+2025-12-06 12:00:00,precio_kwh,,19.1761,forward fill (último valor observado)
+2025-12-11 05:00:00,humedad_pct,127.57,,fuera de rango físico -> NaN
+2025-12-11 05:00:00,humedad_pct,,79.41,forward fill (último valor observado)
+2025-12-13 00:00:00,precio_kwh,,17.7986,forward fill (último valor observado)
+2025-12-13 13:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2025-12-15 20:00:00,periodo_dia,tarde,noche,periodo_dia derivado de hora
+2025-12-17 01:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2025-12-18 10:00:00,temperatura_c,-2.43,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-12-18 10:00:00,temperatura_c,,8.4,forward fill (último valor observado)
+2025-12-19 03:00:00,humedad_pct,,82.58,forward fill (último valor observado)
+2025-12-19 09:00:00,temperatura_c,,9.47,forward fill (último valor observado)
+2025-12-19 14:00:00,temperatura_c,-19.71,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-12-19 14:00:00,temperatura_c,,11.28,forward fill (último valor observado)
+2025-12-25 09:00:00,temperatura_c,-2.44,,7a desviación del nivel local |M| > 3.5 -> NaN
+2025-12-25 09:00:00,temperatura_c,,9.05,forward fill (último valor observado)
+2025-12-26 11:00:00,humedad_pct,,74.99,forward fill (último valor observado)
+2025-12-28 08:00:00,viento_kmh,,10.02,forward fill (último valor observado)
+2025-12-28 21:00:00,humedad_pct,,97.9,forward fill (último valor observado)
+2026-01-01 18:00:00,viento_kmh,,6.38,forward fill (último valor observado)
+2026-01-02 11:00:00,temperatura_c,,9.37,forward fill (último valor observado)
+2026-01-02 12:00:00,temperatura_c,,9.37,forward fill (último valor observado)
+2026-01-04 06:00:00,viento_kmh,,15.69,forward fill (último valor observado)
+2026-01-05 19:00:00,viento_kmh,110.7,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-01-05 19:00:00,viento_kmh,,9.09,forward fill (último valor observado)
+2026-01-05 23:00:00,demanda_mw,1579.48,627.54,reconciliado con demanda_objetivo(t-1)
+2026-01-06 19:00:00,temperatura_c,54.69,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-01-06 19:00:00,temperatura_c,,15.2,forward fill (último valor observado)
+2026-01-07 01:00:00,viento_kmh,,12.97,forward fill (último valor observado)
+2026-01-08 11:00:00,viento_kmh,,10.45,forward fill (último valor observado)
+2026-01-13 23:00:00,humedad_pct,17.75,,7b pico aislado S > 3.5 -> NaN
+2026-01-13 23:00:00,humedad_pct,,96.83,forward fill (último valor observado)
+2026-01-15 06:00:00,temperatura_c,,10.83,forward fill (último valor observado)
+2026-01-15 11:00:00,temperatura_c,24.13,,7b pico aislado S > 3.5 -> NaN
+2026-01-15 11:00:00,temperatura_c,,10.34,forward fill (último valor observado)
+2026-01-15 16:00:00,temperatura_c,,14.69,forward fill (último valor observado)
+2026-01-16 03:00:00,precio_kwh,,13.3653,forward fill (último valor observado)
+2026-01-17 21:00:00,viento_kmh,,7.44,forward fill (último valor observado)
+2026-01-19 13:00:00,humedad_pct,114.2,,fuera de rango físico -> NaN
+2026-01-19 13:00:00,humedad_pct,,59.82,forward fill (último valor observado)
+2026-01-19 15:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2026-01-19 20:00:00,demanda_mw,1694.32,751.58,reconciliado con demanda_objetivo(t-1)
+2026-01-23 02:00:00,viento_kmh,-0.82,,fuera de rango físico -> NaN
+2026-01-23 02:00:00,viento_kmh,,4.12,forward fill (último valor observado)
+2026-01-24 15:00:00,temperatura_c,,14.17,forward fill (último valor observado)
+2026-01-25 07:00:00,viento_kmh,25.43,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-01-25 07:00:00,viento_kmh,,11.12,forward fill (último valor observado)
+2026-01-26 06:00:00,temperatura_c,,8.84,forward fill (último valor observado)
+2026-01-27 07:00:00,temperatura_c,54.42,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-01-27 07:00:00,temperatura_c,,10.03,forward fill (último valor observado)
+2026-01-27 19:00:00,demanda_mw,587.74,749.87,reconciliado con demanda_objetivo(t-1)
+2026-01-29 20:00:00,viento_kmh,95.84,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-01-29 20:00:00,viento_kmh,,9.5,forward fill (último valor observado)
+2026-01-29 21:00:00,viento_kmh,,9.5,forward fill (último valor observado)
+2026-02-01 00:00:00,viento_kmh,,15.46,forward fill (último valor observado)
+2026-02-01 22:00:00,humedad_pct,,99.92,forward fill (último valor observado)
+2026-02-02 10:00:00,viento_kmh,40.18,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-02-02 10:00:00,viento_kmh,,11.16,forward fill (último valor observado)
+2026-02-03 02:00:00,demanda_mw,855.07,647.91,reconciliado con demanda_objetivo(t-1)
+2026-02-06 03:00:00,humedad_pct,-0.05,,fuera de rango físico -> NaN
+2026-02-06 03:00:00,humedad_pct,,96.07,forward fill (último valor observado)
+2026-02-06 17:00:00,humedad_pct,,71.47,forward fill (último valor observado)
+2026-02-06 18:00:00,temperatura_c,32.45,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-02-06 18:00:00,temperatura_c,,16.29,forward fill (último valor observado)
+2026-02-07 07:00:00,viento_kmh,,11.53,forward fill (último valor observado)
+2026-02-07 14:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2026-02-09 21:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2026-02-11 17:00:00,temperatura_c,,17.83,forward fill (último valor observado)
+2026-02-11 18:00:00,demanda_mw,1775.76,720.75,reconciliado con demanda_objetivo(t-1)
+2026-02-12 21:00:00,viento_kmh,,14.2,forward fill (último valor observado)
+2026-02-14 02:00:00,precio_kwh,,21.7876,forward fill (último valor observado)
+2026-02-15 12:00:00,viento_kmh,,13.96,forward fill (último valor observado)
+2026-02-17 02:00:00,humedad_pct,34.92,,7b pico aislado S > 3.5 -> NaN
+2026-02-17 02:00:00,humedad_pct,,100.0,forward fill (último valor observado)
+2026-02-18 16:00:00,viento_kmh,,11.15,forward fill (último valor observado)
+2026-02-18 20:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2026-02-20 12:00:00,precio_kwh,,21.1218,forward fill (último valor observado)
+2026-02-20 20:00:00,temperatura_c,49.58,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-02-20 20:00:00,temperatura_c,,17.68,forward fill (último valor observado)
+2026-02-22 12:00:00,precio_kwh,,25.4757,forward fill (último valor observado)
+2026-02-23 09:00:00,viento_kmh,,16.04,forward fill (último valor observado)
+2026-02-26 02:00:00,humedad_pct,,89.71,forward fill (último valor observado)
+2026-02-27 09:00:00,periodo_dia,noche,mañana,periodo_dia derivado de hora
+2026-02-27 18:00:00,humedad_pct,19.65,,7b pico aislado S > 3.5 -> NaN
+2026-02-27 18:00:00,humedad_pct,,72.9,forward fill (último valor observado)
+2026-02-28 13:00:00,humedad_pct,25.11,,7b pico aislado S > 3.5 -> NaN
+2026-02-28 13:00:00,humedad_pct,,58.27,forward fill (último valor observado)
+2026-02-28 18:00:00,humedad_pct,,73.76,forward fill (último valor observado)
+2026-03-01 14:00:00,temperatura_c,36.8,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-03-01 14:00:00,temperatura_c,,15.72,forward fill (último valor observado)
+2026-03-03 02:00:00,viento_kmh,,16.88,forward fill (último valor observado)
+2026-03-07 12:00:00,viento_kmh,,7.55,forward fill (último valor observado)
+2026-03-08 14:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2026-03-09 00:00:00,precio_kwh,,30.1047,forward fill (último valor observado)
+2026-03-09 03:00:00,precio_kwh,,21.0354,forward fill (último valor observado)
+2026-03-11 04:00:00,viento_kmh,,14.1,forward fill (último valor observado)
+2026-03-12 05:00:00,temperatura_c,,15.14,forward fill (último valor observado)
+2026-03-14 04:00:00,humedad_pct,43.39,,7b pico aislado S > 3.5 -> NaN
+2026-03-14 04:00:00,humedad_pct,,79.51,forward fill (último valor observado)
+2026-03-20 10:00:00,precio_kwh,,24.0848,forward fill (último valor observado)
+2026-03-21 04:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2026-03-21 17:00:00,temperatura_c,,19.09,forward fill (último valor observado)
+2026-03-21 22:00:00,periodo_dia,mañana,noche,periodo_dia derivado de hora
+2026-03-23 09:00:00,humedad_pct,,58.2,forward fill (último valor observado)
+2026-03-26 10:00:00,precio_kwh,,27.7499,forward fill (último valor observado)
+2026-03-26 14:00:00,temperatura_c,3.57,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-03-26 14:00:00,temperatura_c,,18.81,forward fill (último valor observado)
+2026-03-27 14:00:00,precio_kwh,,15.9177,forward fill (último valor observado)
+2026-03-27 17:00:00,precio_kwh,,26.7694,forward fill (último valor observado)
+2026-03-30 04:00:00,humedad_pct,1.03,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-03-30 04:00:00,humedad_pct,,82.79,forward fill (último valor observado)
+2026-03-31 00:00:00,precio_kwh,,25.2955,forward fill (último valor observado)
+2026-04-05 03:00:00,temperatura_c,,22.26,forward fill (último valor observado)
+2026-04-06 11:00:00,precio_kwh,,26.1113,forward fill (último valor observado)
+2026-04-06 20:00:00,temperatura_c,4.8,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-04-06 20:00:00,temperatura_c,,24.84,forward fill (último valor observado)
+2026-04-07 11:00:00,viento_kmh,93.31,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-04-07 11:00:00,viento_kmh,,9.28,forward fill (último valor observado)
+2026-04-07 15:00:00,viento_kmh,19.39,,7b pico aislado S > 3.5 -> NaN
+2026-04-07 15:00:00,viento_kmh,,3.42,forward fill (último valor observado)
+2026-04-08 23:00:00,precio_kwh,69.21,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-04-08 23:00:00,precio_kwh,,22.1319,forward fill (último valor observado)
+2026-04-12 04:00:00,precio_kwh,,24.2696,forward fill (último valor observado)
+2026-04-12 20:00:00,humedad_pct,,81.03,forward fill (último valor observado)
+2026-04-13 20:00:00,demanda_mw,94.9,776.5,reconciliado con demanda_objetivo(t-1)
+2026-04-14 07:00:00,viento_kmh,,19.4,forward fill (último valor observado)
+2026-04-16 02:00:00,humedad_pct,,84.62,forward fill (último valor observado)
+2026-04-16 23:00:00,temperatura_c,,25.57,forward fill (último valor observado)
+2026-04-17 03:00:00,viento_kmh,,18.86,forward fill (último valor observado)
+2026-04-17 12:00:00,viento_kmh,,9.79,forward fill (último valor observado)
+2026-04-17 16:00:00,humedad_pct,,62.09,forward fill (último valor observado)
+2026-04-20 21:00:00,temperatura_c,,26.56,forward fill (último valor observado)
+2026-04-22 05:00:00,humedad_pct,,68.39,forward fill (último valor observado)
+2026-04-22 09:00:00,viento_kmh,,15.43,forward fill (último valor observado)
+2026-04-22 17:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2026-04-23 22:00:00,precio_kwh,,25.6904,forward fill (último valor observado)
+2026-04-26 03:00:00,precio_kwh,,22.9147,forward fill (último valor observado)
+2026-04-30 00:00:00,viento_kmh,42.98,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-04-30 00:00:00,viento_kmh,,17.87,forward fill (último valor observado)
+2026-04-30 16:00:00,temperatura_c,,23.89,forward fill (último valor observado)
+2026-05-02 18:00:00,humedad_pct,,73.01,forward fill (último valor observado)
+2026-05-05 03:00:00,viento_kmh,,12.36,forward fill (último valor observado)
+2026-05-06 05:00:00,viento_kmh,,12.72,forward fill (último valor observado)
+2026-05-07 14:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2026-05-08 00:00:00,periodo_dia,noche,madrugada,periodo_dia derivado de hora
+2026-05-09 20:00:00,demanda_mw,1633.08,700.12,reconciliado con demanda_objetivo(t-1)
+2026-05-10 19:00:00,precio_kwh,,36.2488,forward fill (último valor observado)
+2026-05-11 11:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2026-05-11 13:00:00,precio_kwh,43.25,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-05-11 13:00:00,precio_kwh,,17.9251,forward fill (último valor observado)
+2026-05-11 19:00:00,humedad_pct,,65.91,forward fill (último valor observado)
+2026-05-11 21:00:00,demanda_mw,765.13,739.82,reconciliado con demanda_objetivo(t-1)
+2026-05-12 17:00:00,temperatura_c,,26.28,forward fill (último valor observado)
+2026-05-16 03:00:00,viento_kmh,,12.94,forward fill (último valor observado)
+2026-05-16 05:00:00,viento_kmh,,16.62,forward fill (último valor observado)
+2026-05-18 02:00:00,viento_kmh,,17.39,forward fill (último valor observado)
+2026-05-18 03:00:00,precio_kwh,,22.5728,forward fill (último valor observado)
+2026-05-19 09:00:00,demanda_mw,335.96,682.76,reconciliado con demanda_objetivo(t-1)
+2026-05-21 13:00:00,viento_kmh,,4.67,forward fill (último valor observado)
+2026-05-21 20:00:00,viento_kmh,,5.36,forward fill (último valor observado)
+2026-05-22 03:00:00,humedad_pct,,80.98,forward fill (último valor observado)
+2026-05-22 16:00:00,viento_kmh,94.58,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-05-22 16:00:00,viento_kmh,,5.23,forward fill (último valor observado)
+2026-05-23 12:00:00,temperatura_c,-1.36,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-05-23 12:00:00,temperatura_c,,23.91,forward fill (último valor observado)
+2026-05-24 20:00:00,demanda_mw,1776.21,721.08,reconciliado con demanda_objetivo(t-1)
+2026-05-25 14:00:00,precio_kwh,,19.3711,forward fill (último valor observado)
+2026-05-26 01:00:00,humedad_pct,110.36,,fuera de rango físico -> NaN
+2026-05-26 01:00:00,humedad_pct,,86.14,forward fill (último valor observado)
+2026-05-27 16:00:00,viento_kmh,,13.62,forward fill (último valor observado)
+2026-05-27 20:00:00,viento_kmh,-4.46,,fuera de rango físico -> NaN
+2026-05-27 20:00:00,viento_kmh,,5.05,forward fill (último valor observado)
+2026-05-28 12:00:00,temperatura_c,,23.45,forward fill (último valor observado)
+2026-05-29 12:00:00,temperatura_c,,23.86,forward fill (último valor observado)
+2026-05-30 23:00:00,precio_kwh,70.83,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-05-30 23:00:00,precio_kwh,,16.4935,forward fill (último valor observado)
+2026-05-31 10:00:00,precio_kwh,,31.362,forward fill (último valor observado)
+2026-05-31 19:00:00,viento_kmh,,7.51,forward fill (último valor observado)
+2026-06-01 00:00:00,temperatura_c,51.66,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-06-01 00:00:00,temperatura_c,,27.37,forward fill (último valor observado)
+2026-06-02 19:00:00,precio_kwh,,32.193,forward fill (último valor observado)
+2026-06-03 11:00:00,demanda_mw,771.13,582.55,reconciliado con demanda_objetivo(t-1)
+2026-06-04 02:00:00,precio_kwh,,22.9011,forward fill (último valor observado)
+2026-06-06 00:00:00,viento_kmh,,18.15,forward fill (último valor observado)
+2026-06-06 14:00:00,humedad_pct,,39.33,forward fill (último valor observado)
+2026-06-06 15:00:00,viento_kmh,112.24,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-06-06 15:00:00,viento_kmh,,11.09,forward fill (último valor observado)
+2026-06-08 17:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2026-06-09 01:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2026-06-11 08:00:00,temperatura_c,,24.96,forward fill (último valor observado)
+2026-06-11 15:00:00,temperatura_c,5.99,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-06-11 15:00:00,temperatura_c,,23.37,forward fill (último valor observado)
+2026-06-14 05:00:00,humedad_pct,,67.02,forward fill (último valor observado)
+2026-06-14 14:00:00,temperatura_c,,24.17,forward fill (último valor observado)
+2026-06-15 09:00:00,viento_kmh,-1.18,,fuera de rango físico -> NaN
+2026-06-15 09:00:00,viento_kmh,,12.24,forward fill (último valor observado)
+2026-06-17 03:00:00,viento_kmh,101.65,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-06-17 03:00:00,viento_kmh,,14.35,forward fill (último valor observado)
+2026-06-19 12:00:00,precio_kwh,,26.172,forward fill (último valor observado)
+2026-06-22 21:00:00,temperatura_c,,28.58,forward fill (último valor observado)
+2026-06-24 21:00:00,temperatura_c,,30.96,forward fill (último valor observado)
+2026-06-26 04:00:00,demanda_mw,1165.4,725.66,reconciliado con demanda_objetivo(t-1)
+2026-07-02 16:00:00,viento_kmh,,7.85,forward fill (último valor observado)
+2026-07-03 03:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2026-07-03 09:00:00,viento_kmh,32.0,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-07-03 09:00:00,viento_kmh,,12.55,forward fill (último valor observado)
+2026-07-03 16:00:00,demanda_mw,329.16,694.87,reconciliado con demanda_objetivo(t-1)
+2026-07-04 00:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2026-07-04 15:00:00,humedad_pct,,38.63,forward fill (último valor observado)
+2026-07-07 09:00:00,temperatura_c,,23.19,forward fill (último valor observado)
+2026-07-08 08:00:00,precio_kwh,,26.6128,forward fill (último valor observado)
+2026-07-09 23:00:00,temperatura_c,,26.99,forward fill (último valor observado)
+2026-07-10 05:00:00,precio_kwh,,24.4263,forward fill (último valor observado)
+2026-07-10 15:00:00,viento_kmh,,13.55,forward fill (último valor observado)
+2026-07-10 21:00:00,demanda_mw,1349.41,807.23,reconciliado con demanda_objetivo(t-1)
+2026-07-11 23:00:00,precio_kwh,,31.2117,forward fill (último valor observado)
+2026-07-13 00:00:00,humedad_pct,,73.7,forward fill (último valor observado)
+2026-07-14 06:00:00,viento_kmh,,17.81,forward fill (último valor observado)
+2026-07-15 00:00:00,humedad_pct,,81.13,forward fill (último valor observado)
+2026-07-15 15:00:00,humedad_pct,,51.45,forward fill (último valor observado)
+2026-07-15 17:00:00,temperatura_c,7.59,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-07-15 17:00:00,temperatura_c,,26.42,forward fill (último valor observado)
+2026-07-17 01:00:00,periodo_dia,noche,madrugada,periodo_dia derivado de hora
+2026-07-17 05:00:00,demanda_mw,1314.75,708.33,reconciliado con demanda_objetivo(t-1)
+2026-07-17 13:00:00,viento_kmh,,12.4,forward fill (último valor observado)
+2026-07-24 12:00:00,viento_kmh,,9.93,forward fill (último valor observado)
+2026-07-26 21:00:00,temperatura_c,-17.43,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-07-26 21:00:00,temperatura_c,,28.19,forward fill (último valor observado)
+2026-07-29 23:00:00,viento_kmh,66.74,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-07-29 23:00:00,viento_kmh,,8.58,forward fill (último valor observado)
+2026-08-02 05:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2026-08-02 16:00:00,precio_kwh,,21.6149,forward fill (último valor observado)
+2026-08-04 16:00:00,viento_kmh,,6.06,forward fill (último valor observado)
+2026-08-05 16:00:00,viento_kmh,,1.97,forward fill (último valor observado)
+2026-08-06 11:00:00,precio_kwh,79.58,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-08-06 11:00:00,precio_kwh,,21.8611,forward fill (último valor observado)
+2026-08-07 08:00:00,viento_kmh,,11.57,forward fill (último valor observado)
+2026-08-07 18:00:00,precio_kwh,,29.4177,forward fill (último valor observado)
+2026-08-08 04:00:00,demanda_mw,1643.84,601.86,reconciliado con demanda_objetivo(t-1)
+2026-08-12 20:00:00,precio_kwh,,32.5866,forward fill (último valor observado)
+2026-08-13 11:00:00,demanda_mw,357.24,549.92,reconciliado con demanda_objetivo(t-1)
+2026-08-15 21:00:00,humedad_pct,115.19,,fuera de rango físico -> NaN
+2026-08-15 21:00:00,humedad_pct,,80.74,forward fill (último valor observado)
+2026-08-19 14:00:00,viento_kmh,34.06,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-08-19 14:00:00,viento_kmh,,9.82,forward fill (último valor observado)
+2026-08-19 15:00:00,periodo_dia,noche,tarde,periodo_dia derivado de hora
+2026-08-20 17:00:00,humedad_pct,,57.56,forward fill (último valor observado)
+2026-08-24 20:00:00,temperatura_c,,24.22,forward fill (último valor observado)
+2026-08-25 12:00:00,humedad_pct,129.69,,fuera de rango físico -> NaN
+2026-08-25 12:00:00,humedad_pct,,54.64,forward fill (último valor observado)
+2026-08-28 07:00:00,humedad_pct,120.81,,fuera de rango físico -> NaN
+2026-08-28 07:00:00,humedad_pct,,59.91,forward fill (último valor observado)
+2026-08-29 00:00:00,periodo_dia,tarde,madrugada,periodo_dia derivado de hora
+2026-09-01 01:00:00,periodo_dia,noche,madrugada,periodo_dia derivado de hora
+2026-09-01 08:00:00,humedad_pct,,57.98,forward fill (último valor observado)
+2026-09-03 06:00:00,precio_kwh,,27.064,forward fill (último valor observado)
+2026-09-04 19:00:00,temperatura_c,-4.22,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-09-04 19:00:00,temperatura_c,,24.21,forward fill (último valor observado)
+2026-09-06 11:00:00,viento_kmh,50.94,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-09-06 11:00:00,viento_kmh,,4.42,forward fill (último valor observado)
+2026-09-09 10:00:00,demanda_mw,884.58,582.85,reconciliado con demanda_objetivo(t-1)
+2026-09-13 05:00:00,precio_kwh,,19.5257,forward fill (último valor observado)
+2026-09-14 16:00:00,temperatura_c,-8.95,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-09-14 16:00:00,temperatura_c,,22.31,forward fill (último valor observado)
+2026-09-14 21:00:00,viento_kmh,,14.31,forward fill (último valor observado)
+2026-09-15 17:00:00,precio_kwh,,24.5609,forward fill (último valor observado)
+2026-09-16 21:00:00,humedad_pct,,88.41,forward fill (último valor observado)
+2026-09-17 05:00:00,precio_kwh,,21.6174,forward fill (último valor observado)
+2026-09-19 02:00:00,viento_kmh,-1.58,,fuera de rango físico -> NaN
+2026-09-19 02:00:00,viento_kmh,,16.2,forward fill (último valor observado)
+2026-09-19 07:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2026-09-19 15:00:00,temperatura_c,,20.96,forward fill (último valor observado)
+2026-09-21 00:00:00,temperatura_c,,19.67,forward fill (último valor observado)
+2026-09-22 21:00:00,viento_kmh,,11.24,forward fill (último valor observado)
+2026-09-24 21:00:00,temperatura_c,,21.32,forward fill (último valor observado)
+2026-09-26 07:00:00,temperatura_c,-3.91,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-09-26 07:00:00,temperatura_c,,16.02,forward fill (último valor observado)
+2026-09-30 10:00:00,precio_kwh,-3.18,,fuera de rango físico -> NaN
+2026-09-30 10:00:00,precio_kwh,,26.3747,forward fill (último valor observado)
+2026-10-04 23:00:00,humedad_pct,,83.25,forward fill (último valor observado)
+2026-10-05 01:00:00,temperatura_c,-22.73,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-10-05 01:00:00,temperatura_c,,18.01,forward fill (último valor observado)
+2026-10-05 02:00:00,humedad_pct,,97.01,forward fill (último valor observado)
+2026-10-06 14:00:00,demanda_mw,132.9,496.88,reconciliado con demanda_objetivo(t-1)
+2026-10-06 16:00:00,demanda_mw,1181.62,659.03,reconciliado con demanda_objetivo(t-1)
+2026-10-09 13:00:00,humedad_pct,6.81,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-10-09 13:00:00,humedad_pct,,53.87,forward fill (último valor observado)
+2026-10-09 15:00:00,humedad_pct,,55.37,forward fill (último valor observado)
+2026-10-12 16:00:00,precio_kwh,,20.5602,forward fill (último valor observado)
+2026-10-14 17:00:00,precio_kwh,6.34,,7b pico aislado S > 3.5 -> NaN
+2026-10-14 17:00:00,precio_kwh,,24.1188,forward fill (último valor observado)
+2026-10-15 01:00:00,temperatura_c,,17.48,forward fill (último valor observado)
+2026-10-19 23:00:00,viento_kmh,,11.56,forward fill (último valor observado)
+2026-10-20 01:00:00,temperatura_c,,15.1,forward fill (último valor observado)
+2026-10-20 16:00:00,temperatura_c,-23.54,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-10-20 16:00:00,temperatura_c,,17.85,forward fill (último valor observado)
+2026-10-22 20:00:00,humedad_pct,49.66,,7b pico aislado S > 3.5 -> NaN
+2026-10-22 20:00:00,humedad_pct,,80.77,forward fill (último valor observado)
+2026-10-24 05:00:00,humedad_pct,2.28,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-10-24 05:00:00,humedad_pct,,72.76,forward fill (último valor observado)
+2026-10-25 03:00:00,precio_kwh,,19.0489,forward fill (último valor observado)
+2026-10-27 10:00:00,periodo_dia,tarde,mañana,periodo_dia derivado de hora
+2026-10-27 13:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2026-10-28 19:00:00,humedad_pct,,83.92,forward fill (último valor observado)
+2026-10-29 14:00:00,precio_kwh,,18.2209,forward fill (último valor observado)
+2026-11-02 18:00:00,viento_kmh,52.07,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-11-02 18:00:00,viento_kmh,,5.53,forward fill (último valor observado)
+2026-11-02 20:00:00,precio_kwh,2.93,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-11-02 20:00:00,precio_kwh,,29.7984,forward fill (último valor observado)
+2026-11-03 11:00:00,temperatura_c,,8.29,forward fill (último valor observado)
+2026-11-03 19:00:00,viento_kmh,,10.47,forward fill (último valor observado)
+2026-11-07 00:00:00,humedad_pct,,98.16,forward fill (último valor observado)
+2026-11-07 05:00:00,precio_kwh,,20.591,forward fill (último valor observado)
+2026-11-07 22:00:00,precio_kwh,65.3,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-11-07 22:00:00,precio_kwh,,30.5777,forward fill (último valor observado)
+2026-11-15 21:00:00,viento_kmh,,11.12,forward fill (último valor observado)
+2026-11-20 18:00:00,demanda_mw,94.58,704.57,reconciliado con demanda_objetivo(t-1)
+2026-11-21 18:00:00,humedad_pct,,78.98,forward fill (último valor observado)
+2026-11-24 00:00:00,temperatura_c,,16.65,forward fill (último valor observado)
+2026-11-24 04:00:00,periodo_dia,mañana,madrugada,periodo_dia derivado de hora
+2026-11-24 04:00:00,temperatura_c,,8.71,forward fill (último valor observado)
+2026-11-25 08:00:00,humedad_pct,,74.89,forward fill (último valor observado)
+2026-11-25 15:00:00,periodo_dia,mañana,tarde,periodo_dia derivado de hora
+2026-11-25 16:00:00,temperatura_c,43.99,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-11-25 16:00:00,temperatura_c,,15.19,forward fill (último valor observado)
+2026-11-25 22:00:00,humedad_pct,,92.72,forward fill (último valor observado)
+2026-11-26 23:00:00,viento_kmh,,10.16,forward fill (último valor observado)
+2026-11-27 16:00:00,precio_kwh,,21.7985,forward fill (último valor observado)
+2026-11-27 16:00:00,viento_kmh,,6.99,forward fill (último valor observado)
+2026-11-29 01:00:00,precio_kwh,2.76,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-11-29 01:00:00,precio_kwh,,22.1037,forward fill (último valor observado)
+2026-11-29 14:00:00,precio_kwh,,21.7161,forward fill (último valor observado)
+2026-12-02 11:00:00,precio_kwh,,21.2071,forward fill (último valor observado)
+2026-12-03 12:00:00,humedad_pct,,57.85,forward fill (último valor observado)
+2026-12-03 13:00:00,viento_kmh,117.05,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-12-03 13:00:00,viento_kmh,,8.92,forward fill (último valor observado)
+2026-12-06 19:00:00,precio_kwh,40.7647,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-12-06 19:00:00,precio_kwh,,40.3101,forward fill (último valor observado)
+2026-12-08 13:00:00,humedad_pct,,66.64,forward fill (último valor observado)
+2026-12-09 20:00:00,viento_kmh,-5.31,,fuera de rango físico -> NaN
+2026-12-09 20:00:00,viento_kmh,,9.82,forward fill (último valor observado)
+2026-12-09 23:00:00,humedad_pct,,92.92,forward fill (último valor observado)
+2026-12-16 20:00:00,temperatura_c,50.76,,7a desviación del nivel local |M| > 3.5 -> NaN
+2026-12-16 20:00:00,temperatura_c,,14.53,forward fill (último valor observado)
+2026-12-17 11:00:00,temperatura_c,,7.79,forward fill (último valor observado)
+2026-12-18 03:00:00,temperatura_c,,11.27,forward fill (último valor observado)
+2026-12-20 10:00:00,precio_kwh,,27.7874,forward fill (último valor observado)
+2026-12-20 15:00:00,viento_kmh,,8.39,forward fill (último valor observado)
+2026-12-24 01:00:00,precio_kwh,,21.4309,forward fill (último valor observado)
+2026-12-28 07:00:00,viento_kmh,,15.88,forward fill (último valor observado)
+2026-12-28 15:00:00,temperatura_c,,14.89,forward fill (último valor observado)
